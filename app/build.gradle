@@ -76,10 +76,5 @@ android {
 
         implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}"
         implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.coroutines}"
-
-        testImplementation "androidx.arch.core:core-testing:${versions.arch_testing}"
-
-        testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:${versions.mockito_util}"
-        testImplementation "org.robolectric:robolectric:${versions.robolectric}"
     }
 }
